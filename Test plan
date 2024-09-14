@@ -12,18 +12,20 @@ The objective of this test plan is to ensure that all features developed during 
 _______________________________
 3. Scope of Testing: 
 
-In-Scope: Functional, integration, and user acceptance testing for features in Sprint 1 and Sprint 2 (login, profile management, payment integration, and report generation).
+In-Scope: Functional, integration, and user acceptance testing for features in Sprint 1 and Sprint 2.
 Out-of-Scope: Features not included in these two sprints (e.g., future features, performance testing, or non-functional requirements that are not planned).
 ________________________________
 4. Test Items:
 
 Sprint 1:
-Feature A: User Login
-Feature B: User Profile Management
+Feature A: User login and log out 
+Feature B: Create task 
+Feature C: Change account data 
 
 Sprint 2:
-Feature C: Payment Integration
-Feature D: Report Generation
+Feature D: Change app language 
+Feature E: Puplic task testing 
+Feature F: Follow other users 
 ________________________________
 5. Test Strategy:
 
@@ -67,7 +69,7 @@ When: After each sprint, once the integrated system is ready.
 How:
 System testing involves validating the entire application end-to-end, focusing on functional requirements.
 Test cases will cover all features developed in the sprint.
-Both automated tests (e.g., using JIRA XRAY) and manual test cases can be used to validate FFFFFFFFFFFFF.
+Both automated tests (e.g., using JIRA XRAY) and manual test cases can be used to validate the project fratures.
 Success Criteria: The entire system should meet all defined requirements and work as expected in its operational environment.
 
 D. User Acceptance Testing (UAT)
@@ -99,7 +101,7 @@ Who: performed by the QA team.
 When: After each new deployment, before deeper testing begins.
 How:
 quick tests run to verify that the core functionalities of the system are stable and work after deployment.
-include checking that the system starts up correctly, users can log in, and essential functions (e.g., FFFFF) are operational.
+include checking that the system starts up correctly, users can log in, and essential functions (e.g., create task) are operational.
 Smoke tests are typically automated and included in the CI/CD pipeline to ensure rapid feedback after each code merge or deployment.
 Success Criteria: The system is stable enough for further testing.
 
